@@ -1,0 +1,3 @@
+../Core/Src/app_autotest.c:16:13:PrintSensors	48	static
+../Core/Src/app_autotest.c:30:13:Z_Run	24	static
+../Core/Src/app_autotest.c:39:6:AutoTest_RunOnce	8	static

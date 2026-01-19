@@ -1,0 +1,2 @@
+../Core/Src/debug_uart.c:11:6:DebugUart_Init	1
+../Core/Src/debug_uart.c:15:5:_write	2
