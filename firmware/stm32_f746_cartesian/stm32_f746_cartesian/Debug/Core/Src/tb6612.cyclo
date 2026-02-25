@@ -1,0 +1,3 @@
+../Core/Src/tb6612.c:10:6:TB6612_Enable	2
+../Core/Src/tb6612.c:15:6:TB6612_SetDir	3
+../Core/Src/tb6612.c:26:6:TB6612_SoftPwmOnce	4
