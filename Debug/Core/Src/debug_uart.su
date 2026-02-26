@@ -1,2 +1,0 @@
-../Core/Src/debug_uart.c:11:6:DebugUart_Init	16	static
-../Core/Src/debug_uart.c:15:5:_write	24	static

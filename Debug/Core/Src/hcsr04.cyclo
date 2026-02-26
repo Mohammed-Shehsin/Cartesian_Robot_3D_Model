@@ -1,5 +1,0 @@
-../Core/Src/hcsr04.c:12:6:HCSR04_AttachTimer	1
-../Core/Src/hcsr04.c:16:24:micros	2
-../Core/Src/hcsr04.c:20:6:HCSR04_Trigger	2
-../Core/Src/hcsr04.c:33:7:HCSR04_ReadCmSafe	6
-../Core/Src/hcsr04.c:53:6:HCSR04_EXTI_Callback	6
