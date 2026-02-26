@@ -1,0 +1,484 @@
+<DeviceMapping>
+	<Version CurDocVer="2" MinParVer="2"/>
+	<Device SettingsDestination="@SET" PasswordListDestination="PASS" ConfigDataDestination="@CFG" OsDestination="@RT_" EraseSettingsAddress="@EST" FileSystemDestination="@FS0" FileSystemDestination1="@FS1" HardwareInfoDestination="@HWI" MessageBufferDestination="@MSG" RecipesDestination="@RCP" FlashDirDestination="@DIR" LoadableModuleDestination="@PL0" SettingsDestination2="@SE2" HW-Info_Size="_#0x80" TransferExitToLoader="_#0x00" TransferExitToRuntime="_#0x01" TransferExitToRestartTransfer="_#0x02" TransferExitToReset="_#0x03" HowToEndTransferError="['TransferExitToRestartTransfer']" EndTransferRpcTimeOut="_#100" VersionSmartFileCm="smversion.xml" VersionBinBackupFullPc="_#0x0001" VersionBinBackupFullComp="_#0x0001" VersionBinBackupPasswordListPc="_#0x0001" VersionBinBackupPasswordListComp="_#0x0001" VersionBinBackupRecipesPc="_#0x0000" VersionBinBackupRecipesComp="_#0x0000" VersionBinCfgDataPc="_#1201" VersionBinCfgDataComp="_#1201" VersionBinaryDevice="_#0x0000" VersionBinaryDeviceComp="_#0x0000" DeviceID="((['MyOpType'] &amp; 0xFFF0) == (['OP_TYPE'] &amp; 0xFFF0)) &amp;&amp; (['MyOpAddId'] == ['OP_TYPE_ADD']) &amp;&amp; (['MyOpFamily'] == ['OP_TYPE_FAM']) &amp;&amp; (['MyOpSubFamily'] ==['OP_TYPE_SUB'])" MemoryCheckCondition="((['FlashSizeFile'] ) == ['OP_FLASH']) &amp;&amp; (['DramSizeFile'] == ['OP_RAM']))" OpTypeIsac73Tc="_#0x800F" OpAddIdIsac73Tc="_#0x0104FF02" OpFamilyIsac73Tc="_#0x00000001" OpSubFamilyIsac73Tc="_#0x00000001" OpTypeIsac73="_#0x800F" OpAddIdIsac73="_#0x0104FF02" OpFamilyIsac73="_#0x00000002" OpSubFamilyIsac73="_#0x00000001" OpTypeOp73micro="_#0x800F" OpAddIdOp73micro="_#0x0102FF02" OpFamilyOp73micro="_#0x00000001" OpSubFamilyOp73micro="_#0x00000001" OpTypeOp73="_#0x800F" OpAddIdOp73="_#0x0102FF02" OpFamilyOp73="_#0x00000001" OpSubFamilyOp73="_#0x00000002" OpTypeOp77A="_#0x800F" OpAddIdOp77A="_#0x0102FF06" OpFamilyOp77A="_#0x00000002" OpSubFamilyOp77A="_#0x00000001" OpTypeTp177micro="_#0x800F" OpAddIdTp177micro="_#0x0102FF06" OpFamilyTp177micro="_#0x00000004" OpSubFamilyTp177micro="_#0x00000001" OpTypeTp177A6="_#0x800F" OpAddIdTp177A6="_#0x0102FF06" OpFamilyTp177A6="_#0x00000004" OpSubFamilyTp177A6="_#0x00000002" OpTypeKTp178micro="_#0x800F" OpAddIdKTp178micro="_#0x0102FF06" OpFamilyKTp178micro="_#0x00000008" OpSubFamilyKTp178micro="_#0x00000001" OpTypeXp179A="_#0x800F" OpAddIdXp179A="_#0x0202FF08" OpFamilyXp179A="_#0x00000001" OpSubFamilyTP179AdpTouchColorI10="_#0x00000007" OpSubFamilyOp179AdpKeyMonoI6="_#0x00000015" OpSubFamilyLean15pnColor="_#0x00000000" OpSubFamilyLean10pnColor="_#0x00000006" OpTypeKTp400="_#0x800F" OpAddIdKTp400="_#0x0202FF10" OpFamilyKTp400="_#0x00000001" OpSubFamilyKTp400pnMono="_#0x00000000" OpTypeKTp600="_#0x800F" OpAddIdKTp600="_#0x0202FF10" OpFamilyKTp600="_#0x00000001" OpSubFamilyKTp600pnMono="_#0x00000002" OpSubFamilyKTp600pnColor="_#0x00000003" OpSubFamilyKTp600dpColor="_#0x00000004" FileTypePasswordList="_#0x0002" TimeoutPanelDefault="_#60000" TimeoutPanelAskUser="_#300000" TimeoutPanelErrorText="_#10000" SettingsSectorSize="_#65536" OpTypeKTp400Maplean="_#0x800F" OpAddIdKTp400Maplean="_#0x0102FF06" OpFamilyKTp400Maplean="_#0x00000001" OpSubFamilyKTp400Maplean="_#0x00000000" BinaryRunAddress="_#0x20100000" BinaryStoreAddress="_#0x10380000" BL_DATE="['HW-Info'; 24; 0xFFFFFFFF]" BL_VERSION="['HW-Info'; 22; 0xFFFF]" ByteAllignment="_#2" FlashBlockSize="_#65536" FlashInvalidBankBottom="_#0x80000000" FlashInvalidBankTop="_#0x82000000" HwTestRunAddress="_#0x20100000" HwTestStoreAddress="_#0x10060000" Internal="Lean06pnColor_V1" IsLittleEndian="_#1" LoaderType="LoaderOrBootloader" MyOpAddId="_#0x0202FF10" MyOpFamily="_#0x00000001" MyOpSubFamily="_#0x00000003" MyOpType="_#0x800F" OP_DISPLAY="['HW-Info'; 19;   0xFF]" OP_FLASH="['HW-Info';  4; 0xFFFF]" OP_RAM="['HW-Info'; 20; 0xFFFF]" OP_TYPE="['HW-Info'; 16; 0xFFF0]" OP_TYPE_ADD="['HW-Info'; 36; 0xFFFFFFFF]" OP_TYPE_FAM="['HW-Info'; 40; 0xFFFFFFFF]" OP_TYPE_SUB="['HW-Info'; 44; 0xFFFFFFFF]" ProSave="KTP600 Basic color PN" ProSaveBaseName="KTP600 Basic color PN" DeviceBootName="ktp600basic_bootloader" Runtime="_#0x00000000" SettingsStoreAddress="_#0x10040000" TransferDll="tr_Smart1.Dll" TransferInterface="SmartTransfer" VersionHF="_#0x0000" VersionIncrement="_#0x0000" VersionIntegration="_#0x0000" VersionMajor="_#0x0001" VersionMinor="_#0x0000" VersionSP="_#0x0001"/>
+	<FileAttributes>
+		<Default Compression="_#0x00000000" FlashHeaderRequired="false" ImageType="_#0x00000000" ImageAttributes="_#0x00000000" DoNotRelocateAddresses="true"/>
+		<ConfigData ImageType="_#0x00000000" Compression="_#0x0000" Destination="@CFG" DoNotConvertThisFile="false" FlashHeaderRequired="true" ImageAttributes="_#0x0000" MemoryMappingOnDevice="false"/>
+		<PasswordList Compression="_#0x00000000" FlashHeaderRequired="false" ImageType="_#0x00000000" ImageAttributes="_#0x00000000" Destination="PASS"/>
+		<LoadableModule Destination="@PL0" Compression="_#0x00000000" FlashHeaderRequired="false" ImageType="_#0x00000000" ImageAttributes="_#0x00000000" DoNotRelocateAddresses="true"/>
+	</FileAttributes>
+	<FileNames>
+		<LoadableModule>
+			<AllenBradleyDf1 LoadableModuleName="comm_abdf1.plm"/>
+			<ModiconModbusSerial LoadableModuleName="comm_mbser.plm"/>
+			<S7MpiProfibus LoadableModuleName="comm_s7.plm"/>
+		</LoadableModule>
+	</FileNames>
+	<BackupFull FileType="_#0x0008">
+		<FilesTransfer>
+			<File_01 Key="@SET" ErrNotExist="true" SectionType="_#0x0005" SectionAttributes="_#0x0000"/>
+			<File_02 Key="@RT_" ErrNotExist="true" SectionType="_#0x0001" SectionAttributes="_#0x0000"/>
+			<File_03 Key="@PL0" ErrNotExist="false" SectionType="_#0x0006" SectionAttributes="_#0x0000"/>
+			<File_04 Key="@CFG" ErrNotExist="false" SectionType="_#0x0006" SectionAttributes="_#0x0000"/>
+		</FilesTransfer>
+	</BackupFull>
+	<BackupPasswordList FileType="_#0x0002">
+		<FilesTransfer>
+			<File_01 Key="PASS" ErrNotExist="true" SectionType="_#0x0002" SectionAttributes="_#0x0000"/>
+		</FilesTransfer>
+	</BackupPasswordList>
+	<BackupRecepis FileType="_#0x0001">
+		<FilesTransfer>
+		</FilesTransfer>
+	</BackupRecepis>
+	<BackupRecipesCsv FileType="_#0x0001">
+		<FilesTransfer>
+		</FilesTransfer>
+	</BackupRecipesCsv>
+	<ImageGeneration>
+		<FilesTransfer>
+			<File_01 Key=".bin" PathForHeaders="Binary" CompressionAlgorithm="_#0x0001"/>
+			<File_02 Key=".set" PathForHeaders="Settings" CompressionAlgorithm="_#0x0000"/>
+		</FilesTransfer>
+	</ImageGeneration>
+	<HwTestGeneration>
+		<FilesTransfer>
+			<File_01 Key=".bin" PathForHeaders="HwTest" CompressionAlgorithm="_#0x0001"/>
+			<File_02 Key=".set" PathForHeaders="Settings"/>
+		</FilesTransfer>
+	</HwTestGeneration>
+	<Headers>
+		<Backup>
+			<CommonFileHeader/>
+			<Footer Version="_#0x00000001" NumSec="_#0x00000000" OffsDesc="_#0x00000000" VersionImage="_#0x00000000" VersionApp="_#0x00000000" VersionMajor="_#0x00000000" VersionMinor="_#0x00000000" ImageAreaSize="_#0x00000000" UsedSpaceOfImageArea="_#0x00000000" FooterSign="_#0x03031998" DeviceName="---" EntryPoint="_#0x00000000" NumberOfDevice="_#0x00000001" TargetHW="_#0x00000000" TargetHWSub="_#0x00000000"/>
+		</Backup>
+		<BackupPasswordList>
+			<CommonFileHeader/>
+			<Footer Version="_#0x00000001" NumSec="_#0x00000000" OffsDesc="_#0x00000000" VersionImage="_#0x00000000" VersionApp="_#0x00000000" VersionMajor="_#0x00000000" VersionMinor="_#0x00000000" ImageAreaSize="_#0x00000000" UsedSpaceOfImageArea="_#0x00000000" FooterSign="_#0x03031998"/>
+		</BackupPasswordList>
+		<ImageGeneration>
+			<CommonFileHeader GuiName="---" FileType="_#0x00000020" FlashSize="_#0xFFFFFFFF" SerNumDevice="" Condition="1" DramSize="_#0xFFFFFFFF" VersionHF="_#0x00000000" VersionMajor="_#0x00000001" VersionMinor="_#0x00000000" VersionSP="_#0x00000001"><DeviceNames><File_01 AddOpId="['OpAddIdKTp600']" Key="KTP600 PN color" OpFamily="['OpFamilyKTp600']" OpSubFamily="['OpSubFamilyKTp600pnColor']" OpType="['OpTypeKTp600']"/></DeviceNames></CommonFileHeader>
+			<Footer Version="_#0x00000001" NumSec="_#0x00000000" OffsDesc="_#0x00000000" VersionImage="_#0x00000000" VersionApp="_#0x00000000" VersionMajor="_#0x00000000" VersionMinor="_#0x00000000" ImageAreaSize="_#0x00000000" UsedSpaceOfImageArea="_#0x00000000" FooterSign="_#0x03031998" DeviceName="---" EntryPoint="_#0x00000000" NumberOfDevice="_#0x00000001" TargetHW="_#0x00000000" TargetHWSub="_#0x00000000"/>
+			<Binary>
+				<DescriptionHeader Destination="@RT_" SectionType="_#0x00000001" SectionAttributes="_#0x00000000" DestinationAddress="['BinaryStoreAddress']"/>
+				<FlashHeader EntryPoint="['BinaryRunAddress']" ImageAttrib="_#0x00000003" NextFlashHeader="_#0x00000000" Reboot="_#0x00000000" RunAddress="['BinaryRunAddress']" StoreAddress="['BinaryStoreAddress']" TargetHW="_#0x0000800F" TypeImage="_#0x00000041"/></Binary>
+			<HwTest>
+				<DescriptionHeader Destination="@CFG" DestinationAddress="['HwTestStoreAddress']" SectionType="_#0x00000001" SectionAttributes="_#0x00000000"/>
+				<FlashHeader Reboot="_#0x00000000" NextFlashHeader="_#0x00000000" RunAddress="['HwTestRunAddress']" StoreAddress="['HwTestStoreAddress']" TargetHW="_#0x800F" TypeImage="_#0x80000000" EntryPoint="['HwTestRunAddress'] + 64" ImageAttrib="_#0x00000003"/>
+			</HwTest>
+			<Settings>
+				<DescriptionHeader Destination="@SET" SectionType="_#0x00000001" SectionAttributes="_#0x00000000" DestinationAddress="['SettingsStoreAddress']"/>
+			</Settings>
+		</ImageGeneration>
+	</Headers>
+	<ProsSave>
+		<device category="4" cmdIdCapability_0x00000001="57600;115200" cmdidsupported="0xFFFFFFFF" deviceid="0x8000" sectiontype="1" BlChannel1="SERIAL_VIARS232_PPIMULTI-MASTERCABLE_" BlChannel2="SERIAL_VIAUSB-PPICABLE_" NameBlChannel1="BOOTLOADER_SERIAL" NameBlChannel2="BOOTLOADER_SERIAL_VIAUSB-PPICABLE_" LoaderChannel1="SERIAL_VIARS232_PPIMULTI-MASTERCABLE_" LoaderChannel2="SERIAL_VIAUSB-PPICABLE_" LoaderChannel4="" LoaderChannel5="" NameLoaderChannel1="SERIAL" NameLoaderChannel2="SERIAL_VIAUSB-PPICABLE_" NameLoaderChannel4="" NameLoaderChannel5="" serialLinkAddStr=" (via RS232/PPI Multi-Master Cable)" cmdIdCapability_0x00000002="FULL_BACKUP RECIPE RECIPES_CSV PASSWORD" cmdIdCapability_0x00000004="FULL_BACKUP RECIPE RECIPES_CSV PASSWORD" devicelink="4" imagename="KTP600ColorPN" BlChannel3="ETHERNET" LoaderChannel3="ETHERNET" NameBlChannel3="BOOTLOADER_ETHERNET" NameLoaderChannel3="ETHERNET" Section="KTP600 Basic color PN" transfername="Lean06pnColor"/>
+		<GLOBAL Section="GLOBAL" Caption="SIMATIC ProSave V7.4" sectiontype="0" subsystem="ps_osupdate_smart.dll, ps_backuprestore_smart.dll" date="20-01-00"/>
+	</ProsSave>
+	<FunctionMapping>
+		<BackupFull>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0004" VersionCheckBinary="true" CheckDeviceCondition="true" CheckMemoryCondition="false" VersionBinBackupFullPc="_#0x0001" VersionBinBackupFullComp="_#0x0001" FlashBaseOffset="_#0x10000000"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+     				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="GetPanelTransferMode"/>
+				<FuncCall_055 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareBackUp"/>
+				<FuncCall_070 Dll="Headers.dll" Func="StartBackupFile"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="DoBackUp"/>
+				<FuncCall_090 Dll="Headers.dll" Func="FinishBackupFile"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_120 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</BackupFull>
+		<BackupPasswordlist>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0005" VersionCheckBinary="true" CheckDeviceCondition="true" CheckMemoryCondition="false" VersionBinBackupPasswordListPc="_#0x0001" VersionBinBackupPasswordListComp="_#0x0001"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+     				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_045 Dll="CmdExpander.dll" Func="GetPanelTransferMode"/>
+				<FuncCall_050 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareBackUp"/>
+				<FuncCall_070 Dll="Headers.dll" Func="StartBackupFile"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="DoBackUp"/>
+				<FuncCall_090 Dll="Headers.dll" Func="FinishBackupFile"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_120 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</BackupPasswordlist>
+		<BackupRecipes>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0006" VersionCheckBinary="true" CheckDeviceCondition="true" CheckMemoryCondition="false" VersionBinBackupRecipesPc="_#0x0000" VersionBinBackupRecipesComp="_#0x0000"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_045 Dll="CmdExpander.dll" Func="GetPanelTransferMode"/>
+				<FuncCall_050 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareBackUp"/>
+				<FuncCall_070 Dll="Headers.dll" Func="StartBackupFile"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="DoBackUp"/>
+				<FuncCall_090 Dll="Headers.dll" Func="FinishBackupFile"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_120 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</BackupRecipes>
+		<BackupRecipesCsv>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0006" VersionCheckBinary="true" CheckDeviceCondition="true" CheckMemoryCondition="false" VersionBinBackupRecipesPc="_#0x0000" VersionBinBackupRecipesComp="_#0x0000"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+    				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_045 Dll="CmdExpander.dll" Func="GetPanelTransferMode"/>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="DoBackupCsv"/>
+				<FuncCall_60 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_70 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_80 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</BackupRecipesCsv>
+		<Restore>
+			<Datastore VersionType="_#0x0007" VersionCheckBinary="false" ReadNewAddressTable="true" CheckDeviceCondition="true" CheckMemoryCondition="true" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false" FullFlashEraseDone="true" ChunkTransferNumFilesLeft="TRRE" DoTransferWithOldSettings="false" IgnoreVirtualAddress="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+     				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="Headers.dll" Func="GetVersionsFromFile"/>
+				<FuncCall_060 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_065 Dll="CmdExpander.dll" Func="GetAddressTables"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_075 Dll="CmdExpander.dll" Func="BackUpCommParameters"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="CheckCopyToRamSupport"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="EraseFlashLoaderFirstVersion"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="DoRestore"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="EraseFlashLoaderCopyToRam"/>
+				<FuncCall_120 Dll="CmdExpander.dll" Func="CopyRamToFlash"/>
+				<FuncCall_125 Dll="CmdExpander.dll" Func="RestoreCommParameters"/>
+				<FuncCall_130 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_140 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_150 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</Restore>
+		<RestoreCsv>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0007" VersionCheckBinary="false" ReadNewAddressTable="true" CheckDeviceCondition="true" CheckMemoryCondition="true" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false" FullFlashEraseDone="true" ChunkTransferNumFilesLeft="TRRE" DoTransferWithOldSettings="false" IgnoreVirtualAddress="true"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+     				<FuncCall_035 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="DoRestoreCsv"/>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_080 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</RestoreCsv>
+		<RestoreBootloader>
+			<Datastore HowToEndTransfer="['TransferExitToReset']" CheckDeviceCondition="true" CheckMemoryCondition="true" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false" IsDCpSupported="true" IsPhysicalAddress="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_015 Dll="CmdExpander.dll" Func="SetDCPIPAddress"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="EraseFlash"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="TransferImage"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_100 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</RestoreBootloader>
+		<RestoreGetLoaderType>
+			<Datastore CheckDeviceCondition="false" CheckMemoryCondition="false" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_10 Dll="CmdExpander.dll" Func="GetLoaderTypeForRestore"/>
+			</FunctionList>
+		</RestoreGetLoaderType>
+		<GetFileInformation>
+			<Datastore CheckDeviceCondition="false" CheckMemoryCondition="false" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="GetFileInformation"/>
+				<FuncCalL_030 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</GetFileInformation>
+		<GetSettingsInfoFile>
+			<Datastore PathSettingsFile="c:\Temp\dummy.set"/>
+			<FunctionList>
+				<FuncCall_010 Dll="CmdExpander.dll" Func="GetSettingsInfoFile"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+			</FunctionList>
+		</GetSettingsInfoFile>
+		<FlashDumpBootloader>
+			<Datastore CheckDeviceCondition="true" CheckMemoryCondition="false" OffsetInFlash="_#0x00000000" SizeToDump="_#0x00800000"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_015 Dll="CmdExpander.dll" Func="SetDCPIPAddress"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="FlashDumpBL"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_080 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</FlashDumpBootloader>
+		<Projecttransfer>
+			<Datastore HowToEndTransfer="['TransferExitToRuntime']" VersionType="_#0x0003" VersionCheckBinary="true" CheckDeviceCondition="true" CheckMemoryCondition="false" ChunkTransferNumFilesLeft="TRPR" BaseOffset="_#0x20000040" GraphicsOrientation="_#1" TransferSrtOnly="true" NullPointer="_#0"/>
+			<FunctionList>
+				<FuncCall_005 Dll="CmdExpander.dll" Func="CheckForOverwrite"/>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+       		      <FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_070 Dll="ES2RT.Smart1.FileConverter.dll" Func="DoFileConversion"/>
+				<FuncCall_075 Dll="CmdExpander.dll" Func="EraseProjectData"/>
+        <FuncCall_080 Dll="CmdExpander.dll" Func="ClearPersistentMsgBuffer"/>
+        <FuncCall_085 Dll="CmdExpander.dll" Func="TransferProjectData"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_110 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</Projecttransfer>
+		<ImageTransfer>
+			<Datastore HowToEndTransfer="['TransferExitToReset']" CheckDeviceCondition="true" CheckMemoryCondition="false" SetDcp="true"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_015 Dll="CmdExpander.dll" Func="SetDCPIPAddress"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="EraseFlash"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="TransferImage"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_100 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</ImageTransfer>
+		<HWTImageTransfer>
+			<Datastore HowToEndTransfer="['TransferExitToReset']" CheckDeviceCondition="true" CheckMemoryCondition="false" SetDcp="true" ConfigSize="_#0x80000" SettingsSize="_#0x20000"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_015 Dll="CmdExpander.dll" Func="SetDCPIPAddress"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="EraseFlashHWTOnly"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="TransferImage"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_100 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</HWTImageTransfer>
+		<FillSettingsChunk>
+			<Datastore HowToEndTransfer="['TransferExitToReset']" CheckDeviceCondition="true" CheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="FillSettingsChunk"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_100 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</FillSettingsChunk>
+		<SanityTestLoader>
+			<Datastore SizeDataSanitytestMB="_#300" HowToEndTransfer="['TransferExitToLoader']" CheckDeviceCondition="true" CheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="DoSanityTestLoader"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_100 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</SanityTestLoader>
+		<ImageTransferLoader>
+			<Datastore CheckDeviceCondition="true" CheckMemoryCondition="false" VersionCheckBinary="false" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false" VersionType="_#0x000A" FullFlashEraseDone="true" ChunkTransferNumFilesLeft="TRRE" IgnoreVirtualAddress="false" ReadNewAddressTable="true" RelocateCompressedImage="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+     				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_050 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_050>
+				<FuncCall_060 Dll="Headers.dll" Func="GetVersionsFromFile"/>
+				<FuncCall_070 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_075 Dll="CmdExpander.dll" Func="GetAddressTables"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_085 Dll="CmdExpander.dll" Func="BackUpCommParameters"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="CheckCopyToRamSupport"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="EraseFlashLoaderFirstVersion"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="DoRestore"/>
+				<FuncCall_120 Dll="CmdExpander.dll" Func="EraseFlashLoaderCopyToRam"/>
+				<FuncCall_130 Dll="CmdExpander.dll" Func="CopyRamToFlash"/>
+				<FuncCall_135 Dll="CmdExpander.dll" Func="RestoreCommParameters"/>
+				<FuncCall_140 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_150 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_160 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</ImageTransferLoader>
+		<HWTImageTransferLoader>
+			<Datastore CheckDeviceCondition="true" CheckMemoryCondition="false" VersionCheckBinary="false" PwlCheckDeviceCondition="false" PwlCheckMemoryCondition="false" VersionType="_#0x000A" FullFlashEraseDone="true" ChunkTransferNumFilesLeft="TRRE" IgnoreVirtualAddress="true" ReadNewAddressTable="true" RelocateCompressedImage="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetDeviceInfo"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_040>
+				<FuncCall_050 Dll="Headers.dll" Func="GetVersionsFromFile"/>
+				<FuncCall_060 Dll="Versions.dll" Func="CheckTransferVersions"/>
+				<FuncCall_065 Dll="CmdExpander.dll" Func="GetAddressTables"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_075 Dll="CmdExpander.dll" Func="BackUpCommParameters"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="CheckCopyToRamSupport"/>
+				<FuncCall_090 Dll="CmdExpander.dll" Func="EraseFlashHWTestLoaderFirstVersion"/>
+				<FuncCall_100 Dll="CmdExpander.dll" Func="DoRestore"/>
+				<FuncCall_110 Dll="CmdExpander.dll" Func="EraseFlashHWTestLoaderCopyToRam"/>
+				<FuncCall_120 Dll="CmdExpander.dll" Func="CopyRamToFlash"/>
+				<FuncCall_125 Dll="CmdExpander.dll" Func="RestoreCommParameters"/>
+				<FuncCall_130 Dll="CmdExpander.dll" Func="EndTransfer"/>
+				<FuncCall_140 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_150 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</HWTImageTransferLoader>
+		<GenerateImage>
+			<Datastore AddFooter="true" ImageGenerationMainNode="/DeviceMapping/Headers/ImageGeneration/" ImageGenerationFileNode="/DeviceMapping/ImageGeneration" CheckDeviceCondition="false" CheckMemoryCondition="false" VersionBinaryDevice="_#0x0001" VersionBinaryDeviceComp="_#0x0001" ImageName="KTP600pnColor_V12_0_1_5.img"/>
+			<FunctionList>
+				<FuncCall_10 Dll="Versions.dll" Func="GetSmartVersionsFromCm"/>
+				<FuncCall_20 Dll="Headers.dll" Func="GenerateImageFile"/>
+			</FunctionList>
+		</GenerateImage>
+		<GenerateHwTest>
+			<Datastore AddFooter="true" ImageGenerationMainNode="/DeviceMapping/Headers/ImageGeneration/" ImageGenerationFileNode="/DeviceMapping/HwTestGeneration" CheckDeviceCondition="false" CheckMemoryCondition="false" VersionBinaryDevice="_#0x0001" VersionBinaryDeviceComp="_#0x0001" ImageName="KTP600pnColor_HWT.img"/>
+			<FunctionList>
+				<FuncCall_10 Dll="Versions.dll" Func="GetSmartVersionsFromCm"/>
+				<FuncCall_20 Dll="Headers.dll" Func="GenerateImageFile"/>
+			</FunctionList>
+		</GenerateHwTest>
+		<SaveSectionsFromCommonFile>
+			<Datastore AddFooter="true" CheckDeviceCondition="false" CheckMemoryCondition="false" VersionBinaryDevice="_#0x0001" VersionBinaryDeviceComp="_#0x0001"/>
+			<FunctionList>
+				<FuncCall_010 Dll="CmdExpander.dll" Func="PrepareRestore"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="SaveSectionsCommonFile"/>
+			</FunctionList>
+		</SaveSectionsFromCommonFile>
+		<OsUpdateGetLoaderType>
+			<Datastore HowToEndTransfer="['TransferExitToLoader']" CheckDeviceCondition="false" CheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_10 Dll="CmdExpander.dll" Func="GetLoaderTypeForOsUpdate"/>
+			</FunctionList>
+		</OsUpdateGetLoaderType>
+		<GetDeviceInfo>
+			<Datastore Display_16="mono 160 x 48" Display_17="mono 160 x 64" HowToEndTransfer="['TransferExitToRuntime']" CheckDeviceCondition="true" CheckMemoryCondition="false"/>
+			<FunctionList>
+				<FuncCall_010 Dll="Checker.dll" Func="InitiateInspectorClass"/>
+				<FuncCall_015 Dll="CmdExpander.dll" Func="SetDCPIPAddress"/>
+				<FuncCall_020 Dll="CmdExpander.dll" Func="InitiateRPCOpenChannel"/>
+				<FuncCall_030 Dll="CmdExpander.dll" Func="GetChannelFunc"/>
+				<FuncCall_040 Dll="CmdExpander.dll" Func="GetDeviceInfo_*BL_Ext*_">
+					<if Condition="(0xa5 == ['HW-Info'; 0; 0xFF])"/>
+				</FuncCall_040>
+				<FuncCall_045 Dll="CmdExpander.dll" Func="GetPanelTransferMode"/>
+     				<FuncCall_055 Dll="CmdExpander.dll" Func="CheckDevice">
+					<if Condition="DeviceID"/>
+				</FuncCall_055>
+				<FuncCall_060 Dll="CmdExpander.dll" Func="WriteDeviceInfo">
+					<out_10 StrID="_#2000" Value1="_*ProSave*_"/>
+					<out_20 StrID="_#2001"/>
+					<out_30 StrID="_#2002" Value1="_#(['BL_VERSION']/100)" Value2="_#(['BL_VERSION']%100)" Value3="_#(['BL_DATE']&amp;0x0000FFFF)" Value4="_#(((['BL_DATE'])&amp;0x00FF0000)&gt;&gt;16)" Value5="_#(((['BL_DATE'])&amp;0xFF000000)&gt;&gt;24)"/>
+					<out_40 StrID="_#2003" Value1="_#(['OP_DISPLAY'])"/>
+					<out_50 StrID="_#2004" Value1="_#(['OP_FLASH'])" Value2="MB"/>
+					<out_60 StrID="_#2005" Value1="_#(['OP_RAM']*64)" Value2="MB"/>
+				</FuncCall_060>
+				<FuncCall_065 Dll="CmdExpander.dll" Func="WriteBuildVersion"/>
+				<FuncCall_070 Dll="CmdExpander.dll" Func="EndTransfer_*BL_Ext*_"/>
+				<FuncCall_080 Dll="CmdExpander.dll" Func="WriteTransferSuccessString"/>
+				<FuncCalL_090 Dll="Checker.dll" Func="CloseInspectorClass"/>
+			</FunctionList>
+		</GetDeviceInfo>
+		<ERROR>
+			<FuncCall_010 Dll="ErrorHandler.dll" Func="ErrorHandler"/>
+			<FuncCall_020 Dll="Checker.dll" Func="CloseInspectorClass"/>
+		</ERROR>
+	</FunctionMapping>
+	<ChannelMapping>
+		<SERIAL>
+			<File ChannelDll="uni_serial.dll" ChannelMaxHeaderSize="_#150" Bootloader="false" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#60" UseCompression="true" BaudrateDetectionPatternCountRepeat="_#200" BaudrateDetectionPatternPauseTicks="_#12" BaudrateDetectionPatternTimeoutTicks="_#18" OffsetWaittimeSendReceiveSec="_#3" ChannelPacketSize="_#0x1000"/>
+		</SERIAL>
+		<BOOTLOADER_SERIAL>
+			<File ChannelDll="uni_serial.dll" Bootloader="true" MaxWriteSize="_#4000" MaxReadSize="_#4000" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#30" BL_Ext="BL" UseCompression="true" BaudrateDetectionPatternCountRepeat="_#200" BaudrateDetectionPatternPauseTicks="_#12" BaudrateDetectionPatternTimeoutTicks="_#18" OffsetWaittimeSendReceiveSec="_#3"/>
+		</BOOTLOADER_SERIAL>
+		<SERIAL_VIAUSB-PPICABLE_>
+			<File ChannelDll="channel-usb.dll" ChannelPacketSize="_#0x400" ChannelMaxHeaderSize="_#150" Bootloader="false" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#60" UseCompression="true" BaudrateDetectionPatternCountRepeat="_#200" BaudrateDetectionPatternPauseTicks="_#12" OffsetWaittimeSendReceiveSec="_#3"/>
+		</SERIAL_VIAUSB-PPICABLE_>
+		<BOOTLOADER_SERIAL_VIAUSB-PPICABLE_>
+			<File ChannelDll="channel-usb.dll" Bootloader="true" MaxWriteSize="_#1024" MaxReadSize="_#1024" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#30" BL_Ext="BL" UseCompression="true" BaudrateDetectionPatternCountRepeat="_#200" BaudrateDetectionPatternPauseTicks="_#12" OffsetWaittimeSendReceiveSec="_#3"/>
+		</BOOTLOADER_SERIAL_VIAUSB-PPICABLE_>
+		<USB>
+			<File ChannelDll="Channel_Usb-Usb.dll" ChannelMaxHeaderSize="_#150" Bootloader="false" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#60" ChannelReadTimeout="_#10000" ChannelWriteTimeout="_#10000" UseCompression="false" ChannelPacketSize="_#0x1000"/>
+		</USB>
+		<ETHERNET>
+			<File UseCompression="false" ChannelDll="Channel_Ethernet.dll" ChannelMaxHeaderSize="_#150" Bootloader="false" SerChannelWaitDetectServer="_#6" SerChannelWaitTimeSecsDetectServer="_#60" ChannelReadTimeout="_#20000" ChannelWriteTimeout="_#20000" ChannelPacketSize="_#0x1000"/>
+		</ETHERNET>
+		<BOOTLOADER_ETHERNET>
+			<File ChannelDll="Channel_Ethernet.dll" Bootloader="true" MaxWriteSize="_#4000" MaxReadSize="_#4000" SerChannelWaitDetectServer="_#3" SerChannelWaitTimeSecsDetectServer="_#30" BL_Ext="BL" UseCompression="true"/>
+		</BOOTLOADER_ETHERNET>
+		<MPI>
+			<File ChannelDll="channel-mpi.dll" ChannelMaxHeaderSize="_#0x30" Bootloader="false" ChannelPacketSize="_#0x400"/>
+		</MPI>
+	</ChannelMapping>
+</DeviceMapping>
